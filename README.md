@@ -1,6 +1,6 @@
 # Stick-Game
 ## Overview
-This is a simple yet fun stick game where you start by choosing how many sticks to play with, with numbers up to 200. You can play against the computer or a friend in a two-player mode.
+This is a simple yet fun stick game where you start by choosing how many sticks to play with, with any number of sticks. You can play against the computer or a friend in a two-player mode.
 Players take turns removing a customizable number of sticks per turn. You cannot skip a turn or pick more sticks than allowed or available. The goal is to be the one who picks up the last stick, that’s how you win.
 To beat your opponent, you'll need to think ahead and make smart moves. The computer even uses a bit of strategy, so making calculations ahead helps to win>
 ## used tools
