@@ -102,6 +102,6 @@ def main():
 
         again = input("\nDo you want to play again? (yes/no): ").strip().lower()
         if not again.startswith("y"):
-            print("Goodbye! 👋")
+            print(f"Goodbye! {player} 👋")
             break
 main()
