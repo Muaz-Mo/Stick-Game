@@ -18,8 +18,12 @@ print('''{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{
 {}███████║   ██║   ██║╚██████╗██║  ██╗╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗            {}
 {}╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝            {}
 {}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}''')
-
+#let's introduce how to win this stick game
+#winning strategy revolves around leaving your opponent with a multiple of 4 sticks after your turn.
+#The player who takes the last stick wins.
 import random
+player = input('what is you name? ')
+print(f'welcome to stick game {player} lets start the game: ')
 
 def get_valid_stick_count(prompt, max_sticks):
     while True:
